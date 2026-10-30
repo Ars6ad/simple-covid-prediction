@@ -1,0 +1,12 @@
+{
+  "idx_to_class": {
+    "0": "COVID Positive",
+    "1": "Non-Informative",
+    "2": "Normal"
+  },
+  "class_names": [
+    "COVID Positive",
+    "Non-Informative",
+    "Normal"
+  ]
+}
