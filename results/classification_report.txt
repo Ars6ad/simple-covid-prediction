@@ -1,0 +1,14 @@
+COVID-19 CT Scan CNN Classification Report
+==================================================
+Test Accuracy: 87.78%
+Test Loss:     0.3922
+
+                 precision    recall  f1-score   support
+
+ COVID Positive     0.8519    0.7667    0.8070        30
+Non-Informative     0.9655    0.9333    0.9492        30
+         Normal     0.8235    0.9333    0.8750        30
+
+       accuracy                         0.8778        90
+      macro avg     0.8803    0.8778    0.8771        90
+   weighted avg     0.8803    0.8778    0.8771        90
