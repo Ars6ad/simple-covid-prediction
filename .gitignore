@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Kaggle dataset cache & local downloads
+.cache/
+data/
+dataset/
+*.zip
+*.tar.gz
+
+# Streamlit config / cache
+.streamlit/
