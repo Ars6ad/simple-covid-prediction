@@ -1,4 +1,4 @@
-# 🫁 COVID-19 CT Scan Classification using Deep CNN
+#  COVID-19 CT Scan Classification using Deep CNN
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15%2B-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
