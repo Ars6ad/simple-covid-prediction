@@ -139,7 +139,7 @@ The trained model was evaluated on a strictly isolated holdout test split (`resu
 
 ---
 
-## 🖥️ Streamlit Web Application
+##  Streamlit Web Application
 
 The project includes an interactive web dashboard for real-time demonstration and testing.
 
@@ -148,24 +148,24 @@ streamlit run app.py
 ```
 
 ### Key UI Features:
-- 📤 **Instant Image Upload:** Supports `.png`, `.jpg`, and `.jpeg` cross-sectional CT slices.
-- ⚙️ **Identical Preprocessing Pipeline:** Real-time bilinear interpolation to $128 \times 128 \times 3$ and $[0, 1]$ intensity rescaling matching training conditions.
-- 📊 **Dynamic Confidence Gauge:** Interactive probability distribution visualization across all three diagnostic classes.
-- 🛡️ **Safety Guardrails:** Prominent clinical disclaimer and model status indicator.
+-  **Instant Image Upload:** Supports `.png`, `.jpg`, and `.jpeg` cross-sectional CT slices.
+-  **Identical Preprocessing Pipeline:** Real-time bilinear interpolation to $128 \times 128 \times 3$ and $[0, 1]$ intensity rescaling matching training conditions.
+-  **Dynamic Confidence Gauge:** Interactive probability distribution visualization across all three diagnostic classes.
+-  **Safety Guardrails:** Prominent clinical disclaimer and model status indicator.
 
 ---
 
-## 📚 Academic Case Study & Survey Report
+##  Academic Case Study & Survey Report
 
 This repository contains a full **academic research survey paper** prepared for Artificial Neural Networks / Machine Learning coursework:
 
-- 📄 **Markdown Report:** [CASE_STUDY_SURVEY_REPORT.md](CASE_STUDY_SURVEY_REPORT.md) — Complete 22KB comprehensive survey covering clinical imaging physics, Hounsfield Unit windowing, deep transfer architectures (ResNet-50, VGG-16, DenseNet-121, Vision Transformers), and empirical validation.
-- 📑 **Formal PDF Document:** [COVID19_CT_Scan_Classification_Survey_Report.pdf](COVID19_CT_Scan_Classification_Survey_Report.pdf) — Formatted with IEEE reference standards, tables, and full mathematical formulations.
-- 📝 **Word Document:** [COVID19_CT_Scan_Classification_Survey_Report.docx](COVID19_CT_Scan_Classification_Survey_Report.docx) — Fully editable university submission draft.
+-  **Markdown Report:** [CASE_STUDY_SURVEY_REPORT.md](CASE_STUDY_SURVEY_REPORT.md) — Complete 22KB comprehensive survey covering clinical imaging physics, Hounsfield Unit windowing, deep transfer architectures (ResNet-50, VGG-16, DenseNet-121, Vision Transformers), and empirical validation.
+-  **Formal PDF Document:** [COVID19_CT_Scan_Classification_Survey_Report.pdf](COVID19_CT_Scan_Classification_Survey_Report.pdf) — Formatted with IEEE reference standards, tables, and full mathematical formulations.
+-  **Word Document:** [COVID19_CT_Scan_Classification_Survey_Report.docx](COVID19_CT_Scan_Classification_Survey_Report.docx) — Fully editable university submission draft.
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```plaintext
 simple-covid-prediction/
@@ -195,7 +195,7 @@ simple-covid-prediction/
 
 ---
 
-## 🚀 Quickstart & Installation
+##  Quickstart & Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -233,7 +233,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
-## ⚙️ CLI Training & Evaluation Options
+## CLI Training & Evaluation Options
 
 ### Train the CNN Model
 The training pipeline supports flexible command-line flags for customized runs:
@@ -261,7 +261,7 @@ python evaluate.py
 
 ---
 
-## ⚠️ Medical & Educational Disclaimer
+##  Medical & Educational Disclaimer
 
 > **IMPORTANT MEDICAL NOTICE:**  
 > This software repository and deep learning model were developed **strictly for educational, academic, and research demonstration purposes** as part of an Artificial Neural Networks university case study.  
@@ -273,7 +273,7 @@ python evaluate.py
 
 ---
 
-## 👤 Author & Acknowledgments
+##  Author & Acknowledgments
 
 - **Lead Developer / Author:** [Dudekula Arshad](https://github.com/Ars6ad)
 - **Academic Context:** Artificial Neural Networks (ANN) & Machine Learning Case Study (2025–2026)
