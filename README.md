@@ -13,7 +13,7 @@ Built with **TensorFlow / Keras**, streamed with `tf.data`, evaluated with strat
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 - [Clinical Motivation & The 3-Class Paradigm](#-clinical-motivation--the-3-class-paradigm)
 - [Dataset Overview](#-dataset-overview)
 - [CNN Architecture](#-cnn-architecture)
@@ -28,7 +28,7 @@ Built with **TensorFlow / Keras**, streamed with `tf.data`, evaluated with strat
 
 ---
 
-## 🔬 Clinical Motivation & The 3-Class Paradigm
+## Clinical Motivation & The 3-Class Paradigm
 
 ### The Limitation of Traditional Binary Classifiers
 Most open-source COVID-19 CT models are formulated as simple **binary classifiers** (*COVID-19 vs. Normal*). However, in realistic hospital acquisitions:
@@ -59,7 +59,7 @@ Most open-source COVID-19 CT models are formulated as simple **binary classifier
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 The project utilizes the preprocessed benchmark CT scan collection hosted on Kaggle (`azaemon/preprocessed-ct-scans-for-covid19`), automatically pulled via the `kagglehub` API.
 
@@ -75,7 +75,7 @@ The project utilizes the preprocessed benchmark CT scan collection hosted on Kag
 
 ---
 
-## 🧠 CNN Architecture
+##  CNN Architecture
 
 To ensure the model can be trained and deployed on **standard consumer laptops without requiring a high-end dedicated GPU**, we designed a lightweight, highly effective 3-stage Convolutional Neural Network.
 
@@ -105,7 +105,7 @@ Input Image: (128 × 128 × 3)
 
 ---
 
-## 📈 Empirical Results & Evaluation
+##  Empirical Results & Evaluation
 
 The trained model was evaluated on a strictly isolated holdout test split (`results/test_split.json`) comprising unseen patient scans across all three classes.
 
